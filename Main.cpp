@@ -6,12 +6,31 @@ using namespace std;
 class Card { // Keeps a card object
 public:
   //put the constructors and getters and setters here
+  Card(string suit, string rank, int value);
+
+  //getters
+  int get_value();
+  //get_suit()
+  //get_rank()
+
+  //set_suit()
+  //set_rank()
+  //set_value()
+
+  //print card function
 
 private:
   //put data variables here, look below to see what data variables you should have
+  string suit;
+  string rank;
+  int value;
 };
 
 //define your getters and setters here
+  int Card::get_value() { 
+    return value;
+  }
+
 
 //the rest of the code is working code - if you define your object above
 const string SUITS[] = {"Hearts", "Diamonds", "Clubs", "Spades"};
