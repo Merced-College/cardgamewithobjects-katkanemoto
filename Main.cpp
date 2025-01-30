@@ -1,3 +1,7 @@
+//Kanemoto
+//1/30/25
+//card game with objects
+
 #include <iostream>
 
 using namespace std;
